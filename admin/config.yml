@@ -2,6 +2,7 @@ backend:
   name: github
   repo: mobile-michel/decapcms-v1
   branch: main # Branch to update (optional; defaults to master)
+  site_url: https://mobile-michel.github.io/decapcms-v1/ # URL to netlify site
 
 media_folder: "src/assets" # Media files will be stored in the repo under static/images/uploads
 public_folder: "/assets" # The src attribute for uploaded media will begin with /images/uploads
