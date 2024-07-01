@@ -1,0 +1,5 @@
+backend:
+  name: github
+  branch: main
+  repo: mobile-michel/decapcms-v1
+  base_url: https://mobile-michel.github.io/decapcms-v1/
