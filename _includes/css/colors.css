@@ -1,0 +1,16 @@
+/**************/
+/* colors.css */
+/**************/
+
+:root {
+    /* Colors */
+    --text-color: oklch(6% 0.01 var(--hue));
+    --background-color: oklch(97% 0.01 var(--hue));
+    --primary-color: oklch(var(--lightness) var(--chroma) var(--hue));
+    --secondary-hue: calc(var(--hue) + var(--color-scheme));
+    --secondary-lightness: calc(var(--lightness) + 20%);
+    --secondary-color: oklch(var(--secondary-lightness) var(--chroma) var(--secondary-hue));
+    --neutral-100: oklch(97% 0.01 var(--hue));
+    --neutral-200: oklch(90% 0.02 var(--hue));
+    --neutral-300: oklch(71% 0.03 var(--hue));
+}

@@ -1,0 +1,14 @@
+/************/
+/* base.css */
+/************/
+
+html {
+    font-size: var(--size);
+    font-family: var(--text-font-family);
+    color: var(--text-color);
+    background-color: var(--background-color);
+}
+
+body {
+    margin: 0;
+}

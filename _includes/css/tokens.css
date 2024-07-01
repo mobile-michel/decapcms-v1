@@ -1,0 +1,24 @@
+/*************/
+/* Variables */
+/*************/
+
+:root {
+/* Size of elements */
+    --size: 16px; /* value: 16px to 20px */
+    --text-font-size: clamp(.8rem, 0.924vw + 0.511rem, 1.25rem);
+    --text-font-family: 'Inter', sans-serif;
+    --header-font-size: clamp(1rem, 0.924vw + 0.511rem, 1.25rem);
+    --line-height: clamp(1.125rem, 0.924vw + 0.886rem, 1.625rem);
+    --max-width: 80rem; /* value: 40rem to 80rem or 100%*/
+    --main-width: 60rem; /* value: 40rem to 80rem or 100% */
+    --footer-width: 80%; /* value: 40rem to 80rem or 100% */
+    --spacing: 1rem; /* value: 0.5rem to 1.5rem */
+/* Colors */
+    --hue: 270; /* value: 0 to 360 */
+    --chroma: 0.12; /* value: 0.01 to 0.12 */
+    --lightness: 71%; /* value: 6% to 97% */
+    --color-scheme: 0; /* value: 0 to 180 */
+/* Iconographie */
+    --photo1: url("https://images.unsplash.com/photo-1716690449483-598c9f7fe0d0?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    --photo2: url("https://plus.unsplash.com/premium_photo-1675362696692-636305144028?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}

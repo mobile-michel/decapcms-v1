@@ -1,0 +1,33 @@
+/************/
+/* layout.css */
+/************/
+
+body-container {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header, footer {
+    padding: var(--spacing);
+    background-color: var(--neutral-300);
+}
+
+header {
+    height: 50vh;
+}
+
+main-container {
+    flex-grow: 1;
+    max-width: var(--main-width);
+    margin: 0 auto;
+    padding: var(--spacing);
+    background-color: var(--neutral-200);
+}
+
+body-container > footer {
+    max-width: var(--main-width);
+    margin: 0 auto;
+}
