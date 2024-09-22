@@ -1,7 +1,7 @@
 ---
 title: Flash Photography
 description: Introduction to Flash Photography.
-author: Copilot
+author: Copilot IA
 date: 2024-05-13
 ---
 In this post, we will explore the basics of flash photography. Flash photography is a technique that involves using artificial light sources to illuminate a subject. It can be a powerful tool for photographers to control lighting conditions and create stunning images.
